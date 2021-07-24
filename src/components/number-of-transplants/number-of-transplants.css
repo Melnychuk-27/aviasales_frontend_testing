@@ -1,0 +1,83 @@
+.numberOfTransplants{
+  height: 252px;
+  margin-right: 20px;
+  padding: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.numberOfTransplants__head{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.67;
+  letter-spacing: 0.5px;
+  color: #4a4a4a;
+  margin: 0 20px ;
+}
+
+.numberOfTransplants__body {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+input[type=checkbox] { display: none; }
+.pseudocheckbox::before {  
+  content: "\00A0";
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid #B0B0B0;
+  border-radius: 2px;
+  margin-right: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #808080;
+}
+
+input[type=checkbox]:checked + .pseudocheckbox::before { content: "\2713";
+  background-color: #f1fcff;
+  border: 2px solid #2196f3;
+  color: #2196f3;
+}
+
+.label__box { 
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  padding: 10px 0 10px 20px;
+  cursor: pointer;
+  background-color: #ffffff;
+  
+}
+
+.label__box-active { 
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  padding: 10px 0 10px 20px;
+  cursor: pointer;
+  background-color: #f1fcff;
+  
+}
+
+.label__box:hover {
+  background-color: #f1fcff;
+  cursor: pointer;
+}

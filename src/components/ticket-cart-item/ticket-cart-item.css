@@ -1,0 +1,62 @@
+.ticket{
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ticket__head{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.ticket__price{
+    flex-grow: 0;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #2196f3;
+  
+}
+
+
+
+.ticket__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket__body-there, .ticket__body-back{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticket__body-there {
+  margin-bottom: 20px;
+}
+
+.ticket__origin, .ticket__duration, .ticket__stops{
+  width: 141px;
+}
+.ticket__cities, .ticket__action, .ticket__number-of-transplants {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #a0b0b9;
+}
+
+.ticket__departure, .ticket__time, .ticket__cities-transplants{
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
