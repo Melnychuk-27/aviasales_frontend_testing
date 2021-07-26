@@ -1,0 +1,25 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__body{
+  display: flex;
+
+}
+.container{
+  width: 502px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.logo{
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 54.5px auto;
+}
